@@ -1,0 +1,171 @@
+body{
+  background-color: #f3f3f3;
+ 
+  overflow-x:hidden;
+}
+.fist-page{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e23c78;
+  background-color: #f3f3f3;
+  position: static;
+}
+.mybuttons{
+  display:flex;
+  flex-direction: row;
+}
+.logo{
+  position: absolute;
+  width: 100px;
+  background-color: #222;
+}
+.logo:hover{
+  cursor: pointer;
+}
+.about{
+  background-color: transparent;
+  border-color: #e23c78;
+  border-color: solid;
+  color: #c7215d;
+  height: 100%;
+  width: 100px; 
+  cursor: pointer;
+  transition: background-color 0.15s,
+  color 0.15s;
+  font-size: 100%;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+.about:hover{
+  background-color: #c7215d;
+  color: white;
+}
+.introduction-page{
+  display:flex;
+  flex-direction: row;
+  background-color: #f3f3f3;
+ }
+ 
+.greeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700*/
+
+.hey{
+  font-weight: bold;
+}
+
+.hello{
+  font-family: "Dancing Script", cursive;
+  
+  font-weight: 700;
+  font-style: normal;
+  font-size: 500%;
+  background: -webkit-linear-gradient(#c7215d, #e23c78);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;  
+}
+
+.peter-picture{
+  width: 100%;
+  height: auto;
+    position: relative;
+}
+
+.welcome{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-statement{
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-size: 300%;
+  font-style: italic;
+   background: -webkit-linear-gradient(#e23c78, #c7215d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;  
+  
+}
+.slogan{
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+  background: -webkit-linear-gradient(#e23c78, #c7215d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.slogan:hover{
+  text-decoration: underline;
+}
+.next-button{
+  background-color: transparent;
+  border-color: #e23c78;
+  border-color: solid;
+  border-width: 1px;
+  border-radius: 20%;
+  color: #c7215d;
+  height: 100px;
+  width: 200px; 
+  cursor: pointer;
+  transition: background-color 0.15s,
+  color 0.15s;
+  font-size: 200%;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+.next-button:hover{
+  background-color: #c7215d;
+  color: white;
+}
+.next{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      background-color: #f3f3f3;
+
+}
+
+.second-page{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.second-page-grid{
+  display:flex;
+  flex-direction: row;
+  background-color: #f3f3f3;
+}
+.my-title{
+  background: -webkit-linear-gradient(#e23c78, #c7215d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+  margin: 20px 30px;
+  font-size: 300%;
+}
+.me{
+  background-color: #f3f3f3;
+}
+.my-description{
+  color: #f04a86;
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-size: 200%;
+  margin-top: 30%;
+}
+.mysecondpicture{
+  background-color: lightpink;
+}
