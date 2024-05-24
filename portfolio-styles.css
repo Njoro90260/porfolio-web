@@ -138,12 +138,21 @@ body{
       background-color: #f3f3f3;
 
 }
+.second-page{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
 
 
 .second-page-grid{
-  display:flex;
-  flex-direction: row;
-  justify-content:space-between;
+  display: flex;
+      width: 100%;
+      justify-content: space-between;
+      background-color: #f3f3f3;
+ 
+ 
 }
 .title{
   margin-bottom: 30px;
@@ -154,7 +163,7 @@ body{
   border-radius: 20px;
   height: 50vh;
   margin-top: 100px;
-  width: 100%;
+  width: 300%;
 }
 .desc{
   color: #ffff;
@@ -176,8 +185,10 @@ body{
   font-size: 300%;
 }
 .second-picture{
-  height: 50vh;
+  
 }
 .mysecondpicture{
   background-color: lightpink;
+  height: auto;
+  max-width: 50%;
 }
