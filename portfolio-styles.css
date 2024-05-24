@@ -139,32 +139,41 @@ body{
 
 }
 
-.second-page{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+
 .second-page-grid{
   display:flex;
   flex-direction: row;
-  background-color: #f3f3f3;
+  justify-content:space-between;
 }
-.my-title{
-  background: -webkit-linear-gradient(#e23c78, #c7215d);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-  margin: 20px 30px;
-  font-size: 300%;
+.title{
+  margin-bottom: 30px;
 }
+
 .me{
-  background-color: #f3f3f3;
+  background-color: #e23c78;
+  border-radius: 20px;
+  height: 50vh;
+  margin-top: 100px;
+  width: 100%;
 }
-.my-description{
-  color: #f04a86;
-  font-family: "Courier Prime", monospace;
+.desc{
+  color: #ffff;
+  margin-top: 50px;
+  font-family:"Dancing Script", cursive;
+  color: #f3f3f3;
+  margin-left: 20px;
   font-weight: 700;
-  font-size: 200%;
-  margin-top: 30%;
+  font-style: normal;
+  font-size: 150%;
+}
+.title{
+  margin-top: 50px;
+  font-family: "Courier Prime", monospace;
+  color: #f3f3f3;
+  margin-left: 20px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 300%;
 }
 .mysecondpicture{
   background-color: lightpink;
