@@ -175,6 +175,9 @@ body{
   font-style: normal;
   font-size: 300%;
 }
+.second-picture{
+  height: 50vh;
+}
 .mysecondpicture{
   background-color: lightpink;
 }
