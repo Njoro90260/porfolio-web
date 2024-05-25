@@ -151,6 +151,7 @@ body{
       width: 100%;
       justify-content: space-between;
       background-color: #f3f3f3;
+      gap: 20px;;
  
  
 }
@@ -161,9 +162,9 @@ body{
 .me{
   background-color: #e23c78;
   border-radius: 20px;
-  height: 50vh;
+  height: 75vh;
   margin-top: 100px;
-  width: 300%;
+  width: 500%
 }
 .desc{
   color: #ffff;
@@ -190,5 +191,6 @@ body{
 .mysecondpicture{
   background-color: lightpink;
   height: auto;
-  max-width: 50%;
+  min-width: 50%;
+  max-width: 100%;
 }
